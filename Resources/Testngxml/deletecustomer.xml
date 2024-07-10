@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+      <parameter name="browser" value="edge" />
+      <parameter name="url" value="http://127.0.0.1/login.do" />
+  
+  
+    <classes>
+      <class name="customer.DeleteCustomer"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
