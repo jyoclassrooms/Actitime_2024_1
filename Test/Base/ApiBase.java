@@ -1,5 +1,6 @@
 package Base;
 
-public class ApiBase {
+public class ApiBase 
+{
 
 }
